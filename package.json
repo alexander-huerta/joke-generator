@@ -1,0 +1,39 @@
+{
+  "name": "joke-generator",
+  "version": "1.0.0",
+  "description": "Joke Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack --mode development --watch",
+    "server-dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-huerta/joke-generator.git"
+  },
+  "author": "Alexander Huerta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-huerta/joke-generator/issues"
+  },
+  "homepage": "https://github.com/alexander-huerta/joke-generator#readme",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "axios": "^0.23.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
